@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.our_force {
+  background-color: #65256F;
+}
+.our_force .force_content {
+  display: flex;
+  justify-content: space-between;
+}
+.our_force .force_content .force_text {
+  display: flex;
+  margin: 10px 0;
+}
+
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.nav_content .nav_list1 {
+  display: flex;
+  gap: 15px;
+}
+.nav_content button {
+  width: 170px;
+  height: 40px;
+  background-color: #65256F;
+  color: #fff;
+}
+
+.our_serv_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_serv_content {
+  height: 100vh;
+  margin-top: 30px;
+  display: grid;
+  gap: 20px;
+  grid-template-areas: "card1 card2 card3" "card4 card5 card3" "card6 card6 card7";
+}
+.our_serv_content .card1 {
+  grid-area: card1;
+  background-image: url(../img/Rectangle\ 148.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_serv_content .card2 {
+  grid-area: card2;
+  background-image: url(../img/Rectangle\ 147.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_serv_content .card3 {
+  grid-area: card3;
+  background-image: url(../img/Rectangle\ 146.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_serv_content .card4 {
+  grid-area: card4;
+  background-image: url(../img/Rectangle\ 148.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_serv_content .card5 {
+  grid-area: card5;
+  background-image: url(../img/Rectangle\ 148.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_serv_content .card6 {
+  grid-area: card6;
+  background-image: url(../img/Rectangle\ 148.png);
+  background-size: cover;
+  background-position: center;
+}
+.our_serv_content .card7 {
+  grid-area: card7;
+  background-image: url(../img/Rectangle\ 147.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.our_adv_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_adv_icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.application_content {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.application_content .form {
+  width: 970px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.application_content .form input {
+  width: 310px;
+  height: 50px;
+}
+.application_content .form button {
+  width: 250px;
+  height: 50px;
+  background-color: #65256F;
+  color: #fff;
+}
+
+#footer {
+  background-color: #3A3A3A;
+}
+#footer .footer_content {
+  color: #fff;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}/*# sourceMappingURL=servieces.css.map */

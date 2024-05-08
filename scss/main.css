@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.blue_text {
+  color: #753ED6;
+}
+
+.orange_text {
+  color: #FFB700;
+}
+
+.white_text {
+  color: #fff;
+}
+
+.our_force {
+  background-color: #65256F;
+}
+.our_force .force_content {
+  display: flex;
+  justify-content: space-between;
+}
+.our_force .force_content .force_text {
+  display: flex;
+  margin: 10px 0;
+}
+
+.nav_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.nav_content .nav_list1 {
+  display: flex;
+  gap: 15px;
+}
+.nav_content button {
+  width: 170px;
+  height: 40px;
+  background-color: #65256F;
+  color: #fff;
+}
+
+#header {
+  height: 100vh;
+  background-image: url("../img/Rectangle 70.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#header .dark_overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5019607843);
+}
+#header .header_content {
+  margin: 250px 0;
+  display: flex;
+  align-items: center;
+}
+#header .header_content h1 {
+  font-size: 64px;
+}
+#header .header_content p {
+  font-size: 36px;
+  margin-top: 10px;
+}
+#header .header_content button {
+  width: 300px;
+  height: 60px;
+  margin-top: 30px;
+  background-color: #FFB700;
+  color: #fff;
+}
+#header .header_content .header_icons {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  color: #fff;
+}
+
+.our_serv_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_serv_content {
+  display: flex;
+  justify-content: space-between;
+}
+.our_serv_content .our_serv_card {
+  width: 270px;
+  height: 400px;
+  margin-top: 50px;
+  text-align: center;
+}
+.our_serv_content .our_serv_card img {
+  margin-top: 50px;
+}
+.our_serv_content .our_serv_card h4 {
+  margin-top: 20px;
+}
+.our_serv_content .our_serv_card .tel {
+  margin-top: 80px;
+}
+
+.our_works_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_works_content {
+  display: grid;
+  gap: 45px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 50px;
+}
+.our_works_content .our_w_card {
+  width: 370px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.our_works_content .our_w_card1 {
+  background-image: url(../img/Rectangle\ 119.png);
+}
+.our_works_content .our_w_card2 {
+  background-image: url(../img/Rectangle\ 114.png);
+}
+.our_works_content .our_w_card3 {
+  background-image: url(../img/Rectangle\ 115.png);
+}
+.our_works_content .our_w_card4 {
+  background-image: url(../img/Rectangle\ 86.jpg);
+}
+.our_works_content .our_w_card5 {
+  background-image: url(../img/Rectangle\ 119.png);
+}
+.our_works_content .our_w_card6 {
+  background-image: url(../img/Rectangle\ 117.png);
+}
+
+.o_w_button {
+  display: flex;
+  justify-content: center;
+}
+.o_w_button button {
+  width: 370px;
+  height: 50px;
+  background-color: #65256F;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.production_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.production_content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.production_content .production_card {
+  width: 370px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.production_content .production_card1 {
+  background-image: url(../img/Rectangle\ 84.jpg);
+}
+.production_content .production_card2 {
+  background-image: url(../img/Rectangle\ 85.jpg);
+}
+.production_content .production_card3 {
+  background-image: url(../img/Rectangle\ 86.jpg);
+}
+
+.our_price_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_price_content {
+  margin-top: 30px;
+  display: grid;
+  gap: 38px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.our_price_content .our_price_content_card {
+  width: 270px;
+  height: 470px;
+}
+
+.our_price_button {
+  display: flex;
+  justify-content: center;
+}
+
+.our_price_btn {
+  width: 370px;
+  height: 60px;
+  background-color: #65256F;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.our_clients_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_clients_content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.our_comands_text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our_comands_content {
+  display: flex;
+  justify-content: space-between;
+}
+.our_comands_content .our_comands_content_cards {
+  width: 370px;
+  height: 500px;
+}
+
+.application_content {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.application_content .form {
+  width: 970px;
+  height: 90px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+.application_content .form input {
+  width: 310px;
+  height: 50px;
+}
+.application_content .form button {
+  width: 250px;
+  height: 50px;
+  background-color: #65256F;
+  color: #fff;
+}
+
+#footer {
+  background-color: #3A3A3A;
+}
+#footer .footer_content {
+  color: #fff;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}/*# sourceMappingURL=main.css.map */
